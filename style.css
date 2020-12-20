@@ -1,0 +1,156 @@
+
+/* start navbar*/
+.nav-link , .navbar-brand { 
+  color: #f4f4f4; 
+  cursor: pointer;
+}
+
+.nav-link{ 
+  margin-right: 15px;
+}
+
+.nav-link:hover  { 
+  background: #022c0b;
+}
+
+.navbar-collapse{ 
+  justify-content: flex-end;
+}
+
+.navbar-nav{
+  text-align: right;
+}
+/* end navbar*/
+
+
+
+/* start about me */
+.about {
+  padding: 10px;
+ }
+
+.page-header {
+border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+.about .row {
+padding-top: 40px;
+}
+/* end about me */
+
+
+/* start contact */
+.contact-form {
+  padding: 50px;
+ }
+
+ .contact-form h1 {
+  border-bottom: 1px solid rgb(148, 148, 148);
+ }
+
+ .row .form-group {
+  padding-top: 40px;
+ }
+/* end contact */
+
+/* start portafolio */
+.portafolio h1 {
+  border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #ccc;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 40px auto;
+}
+
+#main-content,
+#sidebar {
+  width: 500px;
+  padding: 30px;
+}
+
+#main-content {
+  float: left;
+}
+
+#sidebar {
+  float: right;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 168px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
+
+
