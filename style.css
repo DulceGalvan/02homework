@@ -1,3 +1,6 @@
+body{
+  padding-bottom:100px;
+}
 
 /* start navbar*/
 .nav-link , .navbar-brand { 
@@ -22,8 +25,6 @@
 }
 /* end navbar*/
 
-
-
 /* start about me */
 .about {
   padding: 10px;
@@ -36,6 +37,10 @@ border-bottom: 1px solid rgb(148, 148, 148);
 .about .row {
 padding-top: 40px;
 }
+
+/* .about div.p {
+  font-size: 40px;
+} */
 /* end about me */
 
 
@@ -147,9 +152,19 @@ body {
     margin-top: 40px;
   }
 }
+/* start portafolio */
 
-
-
+/* start footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(167, 166, 166);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+/* end footer*/
 
 
 
